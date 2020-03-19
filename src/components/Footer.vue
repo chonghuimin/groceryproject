@@ -14,7 +14,7 @@ export default {
   data(){
     return{
         
-        copyRtSymbol:'some router attempt by humans'
+        copyRtSymbol:'&copy;BT3103'
         }
   }
 }
@@ -23,7 +23,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 footer{
-    background:rgb(6, 74, 126);
+    background:rgb(122, 63, 100);
     padding:10px;
     border-style: solid;
     border-color:black;

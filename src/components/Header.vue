@@ -1,13 +1,12 @@
 <template>
   <div class="headerStyle">
-    <nav>
+        <nav>
           <h1>{{ title }}</h1>
           <ul>
              <li><router-link to="/" exact>List</router-link></li>
-             <li><router-link to="/add" exact>Buy Item</router-link></li>
+             <li><router-link to="/add" exact>Add Item</router-link></li>
           </ul>
         </nav>
-    
   </div>
 </template>
 
@@ -16,7 +15,7 @@ export default {
   
   data(){
     return{
-        msg: 'router attempt!!!'
+        msg: 'Grocery List'
         }
   },
   props:{
@@ -30,18 +29,19 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 header{
-    background:rgb(6, 74, 126);
-    padding:10px;
+    background:rgb(122, 63, 100);
+    padding:6px;
     border-style: solid;
     border-color:black;
     border-width: 2px;
 }
 h1{
-    color:ivory
+    color:ivory;
+    background: rgb(122, 63, 100);
+    font-size: 30px;
 }
-
 nav{
-    background: rgb(6, 74, 126);
+    background: rgb(122, 63, 100);
     padding: 14px 0;
     margin-bottom: 40px;
 }

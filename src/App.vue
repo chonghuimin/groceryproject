@@ -3,7 +3,6 @@
     <app-header v-bind:title="msg"></app-header>
     <router-view></router-view>
     <app-footer></app-footer>
-    
   </div>
 </template>
 
@@ -12,7 +11,6 @@
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 //import PageContent from './components/PageContent.vue'
-
 export default {
   name: 'App',
   data(){
